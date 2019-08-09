@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 -   [ ] What are the required parts of class components?
 
+Class keyword and extending React.Component. Previously a constructor function with a call to super would have been necessary, but now you can just declare some state without it if you choose to. You also need a render function that returns some JSX/content.
+
 -   [ ] Name at least three lifecycle methods?
+
+ComponentDidMount, ComponentDidUpdate, ComponentWillUnmount
 
 -   [ ] Why are forms used so often in web applications and software?
 
+If your application needs some way of getting information from a user of that application, forms are the way to do it, and since many sites do need to get information from a user, naturally forms are going to be used often.
+
 -   [ ] What advantages are there by using a forms library like Formik?
 
+Cleaner form interface, easier for future developers to read and extends, not having to manage everything with handlers that you write yourself every time you make a form, having forms standardized across the whole application, etc.
+
 -   [ ] Why do we write tests for our apps?
+
+To ensure things are working correctly i.e. as expected. To prevent costly and difficult to diagnose bugs later on in the life of your app. It can help you think about to develop your app and cover edge cases that may not have been apparent at the start.
 
 ## Project Set Up
 
