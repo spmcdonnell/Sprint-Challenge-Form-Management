@@ -2,10 +2,10 @@ import React from 'react';
 
 function User({ user, index }) {
     return (
-        <div className="user">
-            <p>Course: {user.data[index].course}</p>
-            <p>Name: {user.data[index].name}</p>
-            <p>Technique: {user.data[index].technique}</p>
+        <div data-testid="recipe" className="user">
+            <p>Course: {user.data[0].course}</p>
+            <p>Name: {user.data[0].name}</p>
+            <p>Technique: {user.data[0].technique}</p>
         </div>
     );
 }

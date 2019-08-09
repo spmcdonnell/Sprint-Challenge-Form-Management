@@ -19,7 +19,7 @@ function LoginForm({ props, values, errors, touched, isSubmitting }) {
                         {touched.password && errors.password && <span style={{ color: 'red' }}>{errors.password}</span>}
                     </label>
                 </div>
-                <button type="submit" disabled={isSubmitting}>
+                <button data-testid="request" type="submit" disabled={isSubmitting}>
                     Submit
                 </button>
             </Form>
